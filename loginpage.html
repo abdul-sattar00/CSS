@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        div{
+            background-color: #e0cbcb;
+            padding: 10px;
+            border-radius: 30px;
+            text-align: center;
+            width: 300px;
+        }
+        h2{
+            margin-bottom: 30px;
+            font-size: 25px;
+            color: rgba(234, 141, 19, 0.959);
+        }
+        .box1, .box2{
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: rgb(220, 138, 7);
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 90%;
+            padding: 5px;
+            border: 1px solid #add;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+        button{
+            width: 35%;
+            padding: 5px;
+            background-color: rgb(213, 180, 88);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+
+        }
+        button:hover{
+           background-color:rgb(218, 146, 12);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="">
+            <div class="box1">
+                <label for="username">username</label>
+                <input type="text" placeholder="enter your name"  required>
+            </div>
+            <div class="box2">
+                <label for="passwor">password</label>
+                <input type="password" placeholder="enter password" required>
+            </div>
+            <button>submit</button>
+        </form>
+        </div>
+</body>
+</html>
